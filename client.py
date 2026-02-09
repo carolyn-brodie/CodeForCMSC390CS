@@ -11,9 +11,10 @@ def try_connection(host, port):
     print(response.decode())
     client_socket.close()
 
-    #client_socket.connect(("example.com", 80))
+
 
 if __name__ == "__main__":
-    try_connection("localhost", 8080)
+    #try_connection("localhost", 8080)
+    try_connection("10.2.160.176", 8080)
 
 
