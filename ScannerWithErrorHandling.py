@@ -28,6 +28,6 @@ def safe_scan_port(host, port, timeout=3):
 
 
 if __name__ == "__main__":
-    # print(safe_scan_port("localhost", 9000))
+    #print(safe_scan_port("localhost", 8080))
 
-    print(scan_range_ports("localhost", 8000, 8081))
+    print(scan_range_ports("localhost", 8000, 8081,2))

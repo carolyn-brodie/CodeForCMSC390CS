@@ -3,8 +3,6 @@
 HOST=${1:-127.0.0.1}   # IP address to bind to
 PORT=${2:-8080}
 
-
-
 echo "Serving on http://$HOST:$PORT"
 echo "Access logs can be found in /tmp/bash_webserver.log"
 
