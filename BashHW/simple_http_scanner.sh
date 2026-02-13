@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Usage:
-#   ./detect_sqli.sh request.txt
-#   cat request.txt | ./detect_sqli.sh
+#   ./simple_http_scanner.sh request.txt
+#   cat request.txt | ./simple_http_scanner.sh
 
 # Read from file or stdin
 if [ -n "$1" ]; then

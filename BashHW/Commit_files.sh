@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Usage:
-# ./commit_to_git.sh /path/to/git/repo "Commit message"
+# ./Commit.sh /path/to/git/repo "Commit message"
 
 set -e
 
